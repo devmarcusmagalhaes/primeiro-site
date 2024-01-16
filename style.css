@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    color:#040004;
+    line-height: 1.5;
+}
+
+body {
+    background:#07705f;
+    
+}
+
+html, body{
+    height: 100%;
+}
+
+
+.content{
+    background-color: #fff;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    width: 720px;
+    padding: 20px;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 px 6 px 10px;
+    border-radius: 5px;
+    overflow:auto;
+}
+
+.row {
+    padding: 5px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+fieldset{
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: #c2cbce;
+    box-shadow:  2px 2px 2px #c2cbce;
+}
+
+legend{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label:not([for="casado"]):not([for="solteiro"]):not([for="java"]):not([for="php"]):not([for="csharp"]) {
+    display: inline-block;
+    width: 120px;
+}
+
+ input {
+    padding:2px;
+    outline: none;
+ }
+
+ input[id="nome"],
+ input[id="sobrenome"],
+ input[id="e-mail"]{
+    width: 480px;
+ }
+
+ input[id="dtnasc"]{
+    width: 180px;
+ }
+
+ input[type="text"],
+ input[type="date"],
+ input[type="number"],
+ input[type="email"]{
+    border:none;
+ }
+
+
+img {
+    position: relative;
+    left:25px;
+    top:20px ;
+
+}
